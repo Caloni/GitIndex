@@ -1,0 +1,25 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=1
+INDEXVERSION=2
+VERCTRL=Subversion
+DATETIME=Sun May 24 22:51:33 2015
+SRCSRV: variables ------------------------------------------
+SVNUSER=caloni
+SVNPASS=tbAAontbAA35
+SVN_EXTRACT_TARGET=%targ%\%fnfile%(%var1%)
+SVN_EXTRACT_CMD=cmd /c curl.exe "%var2%" > "%svn_extract_target%"
+SRCSRVTRG=%SVN_extract_target%
+SRCSRVCMD=%SVN_extract_cmd%
+SRCSRV: source files ---------------------------------------
+c:\temp\srcsrv\src\trunk\consoleapplication1\stdafx.h*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/stdafx.h*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\targetver.h*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/targetver.h*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\stdafx.cpp*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/stdafx.cpp*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\debug\consoleapplication1.pch*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Debug/ConsoleApplication1.pch*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\source2.cpp*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Source2.cpp*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\header2.h*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Header2.h*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\source1.cpp*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Source1.cpp*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\source.cpp*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Source.cpp*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\header.h*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Header.h*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\consoleapplication1.cpp*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/ConsoleApplication1.cpp*2
+c:\temp\srcsrv\src\trunk\consoleapplication1\header1.h*https://raw.githubusercontent.com/Caloni/srcsrv/fef82cc3c4dc514cb1a63fe6703ca6a21b07af59/trunk/ConsoleApplication1/Header1.h*2
+SRCSRV: end ------------------------------------------------

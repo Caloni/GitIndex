@@ -1,0 +1,26 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=1
+INDEXVERSION=2
+VERCTRL=GitHub
+DATETIME=Sun May 24 22:51:33 2015
+SRCSRV: variables ------------------------------------------
+GIT_REVNO=fef82cc3c4dc514cb1a63fe6703ca6a21b07af59
+GIT_WEB_ADDRESS=https://raw.githubusercontent.com/Caloni/srcsrv
+GIT_URL=%git_web_address%/%git_revno%/%var2%
+GIT_EXTRACT_TARGET=%targ%\%fnfile%(%var1%)
+GIT_EXTRACT_CMD=cmd /c curl.exe "%git_url%" > "%git_extract_target%"
+SRCSRVTRG=%git_extract_target%
+SRCSRVCMD=%git_extract_cmd%
+SRCSRV: source files ---------------------------------------
+c:\temp\srcsrv\src\trunk\consoleapplication1\stdafx.h*trunk/ConsoleApplication1/stdafx.h
+c:\temp\srcsrv\src\trunk\consoleapplication1\targetver.h*trunk/ConsoleApplication1/targetver.h
+c:\temp\srcsrv\src\trunk\consoleapplication1\stdafx.cpp*trunk/ConsoleApplication1/stdafx.cpp
+c:\temp\srcsrv\src\trunk\consoleapplication1\debug\consoleapplication1.pch*trunk/ConsoleApplication1/Debug/ConsoleApplication1.pch
+c:\temp\srcsrv\src\trunk\consoleapplication1\source2.cpp*trunk/ConsoleApplication1/Source2.cpp
+c:\temp\srcsrv\src\trunk\consoleapplication1\header2.h*trunk/ConsoleApplication1/Header2.h
+c:\temp\srcsrv\src\trunk\consoleapplication1\source1.cpp*trunk/ConsoleApplication1/Source1.cpp
+c:\temp\srcsrv\src\trunk\consoleapplication1\source.cpp*trunk/ConsoleApplication1/Source.cpp
+c:\temp\srcsrv\src\trunk\consoleapplication1\header.h*trunk/ConsoleApplication1/Header.h
+c:\temp\srcsrv\src\trunk\consoleapplication1\consoleapplication1.cpp*trunk/ConsoleApplication1/ConsoleApplication1.cpp
+c:\temp\srcsrv\src\trunk\consoleapplication1\header1.h*trunk/ConsoleApplication1/Header1.h
+SRCSRV: end ------------------------------------------------
