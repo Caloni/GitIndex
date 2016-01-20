@@ -1,2 +1,2 @@
-c:\Tools\DbgTools(x86)\symstore add /r /f src\trunk /s symbols /t "SrcSrvTest"
+c:\Tools\DbgTools(x86)\symstore add /r /f src\trunk /s c:\tools\symbols /t "SrcSrvTest"
 
